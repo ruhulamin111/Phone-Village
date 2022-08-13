@@ -86,4 +86,3 @@ const moreDetils = phone => {
     sensor.appendChild(span);
 
 }
-

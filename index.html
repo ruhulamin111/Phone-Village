@@ -11,7 +11,6 @@
     <!-- css link -->
     <link rel="stylesheet" href="./style.css">
     <title>Phone Village</title>
-
 </head>
 
 <body>
@@ -25,14 +24,15 @@
         </div>
     </div>
 
-    <h1 class="text-center">Phone Village</h1>
+    <h1 class="text-center my-5 fw-bold fs-1 text-success">Phone Village</h1>
+
     <div class="input-group mb-3 w-50 mx-auto">
-        <input type="text" id="searchField" class="form-control" placeholder="Search your favorite phone"
+        <input type="text" id="searchField" class="form-control p-2 border-2" placeholder="Search your favorite phone"
             aria-label="Recipient's username" aria-describedby="button-addon2">
-        <button onclick="searchMobile()" class="btn btn-outline-secondary" type="button" id="button1">Search</button>
+        <button onclick="searchMobile()" class="btn btn-outline-success" type="button" id="button1">Search</button>
     </div>
     <!-- error hundle -->
-    <p id="error" class="text-center text-danger">Search item not found</p>
+    <p id="error" class="text-center text-danger  my-3">Search item not found</p>
 
     <div class="container">
         <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">

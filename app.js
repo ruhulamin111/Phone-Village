@@ -20,7 +20,7 @@ const displayResult = phones => {
     }
     else {
         error.style.display = "none";
-        allphone.slice(0, 10).forEach(phone => {
+        allphone.slice(0, 9).forEach(phone => {
             const div = document.createElement('div');
             div.classList.add('col');
             div.innerHTML = `
@@ -50,6 +50,7 @@ const moreDetils = phone => {
     const details = document.getElementById('details');
     const div = document.createElement('div');
     div.classList.add('container');
+
     div.innerHTML = `
     <div class="modal-content">
         <div class="modal-header">
